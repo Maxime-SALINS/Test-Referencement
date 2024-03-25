@@ -1,0 +1,85 @@
+/* Couleurs principales */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #39a4eb8a;
+    color: black;
+}
+
+h2,h3,h4,h5,h6 {
+    color: yellow;
+}
+
+.h2-choice{
+    text-align: center;
+    margin: 2% 0;
+}
+
+a {
+    color: #9900ff;
+
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #ff0099;
+}
+
+header {
+    background-color: #e6299b;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+p{
+    margin: 2% 0;
+}
+
+ul{
+    margin: 2% 0;
+}
+
+.btn {
+    background-color: #9900ff;
+    color: #ffffff;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #9900ff;
+}
+
+img {
+    max-width: 25%;
+    height: auto;
+}
+
+.dispo-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dispo-checbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-console{
+    text-align: center;
+}
